@@ -10,3 +10,4 @@ known_hosts
 dot_files/vim/view
 dot_files/vim/bundle
 installation/vim
+vim/bundle

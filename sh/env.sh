@@ -10,7 +10,7 @@ export PSQL_EDITOR=$EDITOR
 
 if [ -e $HOME/.oh-my-zsh ]; then
   export ZSH=$HOME/.oh-my-zsh
-  export ZSH_THEME="Honukai"
+  export ZSH_THEME="amuse"
 fi
 
 export HISTFILE="$HOME/.${USER}_zsh_history"
@@ -18,3 +18,7 @@ export HISTFILE="$HOME/.${USER}_zsh_history"
 if [ -e "$HOME/.pyenv" ]; then
   export PYENV_ROOT="$HOME/.pyenv"
 fi
+
+
+# Salesforce
+export KUBEVERSION=v1.17.5

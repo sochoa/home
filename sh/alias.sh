@@ -11,3 +11,9 @@ alias tl="tmux ls 2>/dev/null || echo 'No sessions available'"
 alias rg="grep -nrHI"
 alias rtest="rspec -f d"
 alias ports='sudo lsof -i -P | grep -i "listen"'
+
+if which gfind &>/dev/null ; then
+  alias find='gfind'
+fi
+
+alias pf="fzf_passwd"
